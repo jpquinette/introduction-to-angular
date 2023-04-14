@@ -28,9 +28,9 @@ export class HousingListComponent implements OnInit {
     this.locationSelectedEvent.emit(location);
   }*/
 
-  searchHousingLocations()
+  searchHousingLocations(searchText: string)
   {
-
+    console.log(searchText);
   }
 
 
